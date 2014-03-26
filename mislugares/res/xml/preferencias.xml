@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    android:key="noticicacionesCorreo"
+    android:title="Notificaciones por correo" >
+    
+    <CheckBoxPreference
+        android:key="recibirCorreos"
+        android:title="Recibir correos"
+        android:summary="Recibir correos con información de lugares" />
+
+    <EditTextPreference
+        android:key="direccionCorreo"
+        android:title="Dirección de correo"
+        android:summary="Cuenta donde se mandarán las notificaciones" />
+    
+    <ListPreference
+        android:key="tiposNotificaciones"
+        android:title="Tipos de notificaciones"
+        android:summary="Que tipos de correos quieres recibir"
+        android:entries="@array/tiposNotificacion"
+        android:entryValues="@array/tiposNotificacionValores" />
+
+</PreferenceScreen>
