@@ -35,7 +35,7 @@ public class MainActivity extends Activity {
 	}
 
 	public void lanzarPreferencias(View view) {
-		// lanzamos el menu de preferencias
+		// lanzamos el menu de preferencias basico
 		Intent intent = new Intent(this, Preferencias.class);
 		startActivity(intent);
 	}
