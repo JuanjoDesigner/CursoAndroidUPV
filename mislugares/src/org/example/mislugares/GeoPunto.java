@@ -10,6 +10,14 @@ public class GeoPunto {
 		this.latitud = latitud;
 	}
 
+	public double getLongitud() {
+		return longitud;
+	}
+
+	public double getLatitud() {
+		return latitud;
+	}
+
 	// declaracion de metodos
 	/**
 	 * Metodo que devuelve un String concatenando la longitud y la latitud

@@ -39,6 +39,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:drawableLeft="@android:drawable/ic_menu_call"
+            android:onClick="llamadaTelefono"
             android:gravity="bottom"
             android:text="" />
 
@@ -47,6 +48,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:drawableLeft="@android:drawable/ic_menu_mapmode"
+            android:onClick="pgWeb"
             android:gravity="bottom"
             android:text="" />
 
@@ -62,7 +64,8 @@
             android:id="@+id/linearLayout4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal" >
+            android:orientation="horizontal"
+            android:onClick="verMapa" >
 
             <TextView
                 android:id="@+id/txtFechaVL"
