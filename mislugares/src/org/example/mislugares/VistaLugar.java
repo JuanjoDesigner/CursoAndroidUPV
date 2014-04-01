@@ -2,12 +2,11 @@ package org.example.mislugares;
 
 import java.text.DateFormat;
 import java.util.Date;
-
-import android.R.integer;
 import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.RatingBar;
@@ -58,6 +57,13 @@ public class VistaLugar extends Activity {
 	}
 
 	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.menu_vista_lugar, menu);
+		return true;
+	}
+	
+	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		switch (item.getItemId()) {
 		case R.id.accion_compartir:
@@ -75,6 +81,8 @@ public class VistaLugar extends Activity {
 		default:
 			break;
 		}
+		
+		return false;
 	}
 
 	public void verMapa(View view) {

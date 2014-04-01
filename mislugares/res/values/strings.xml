@@ -37,4 +37,7 @@
     <string name="d"></string>
     <string name="f"></string>
 
+    <!-- Strings de muenu_vista_lugar -->
+    <string name="accion_compartir">Compartir</string>
+    <string name="accion_llegar">Llegar</string>
 </resources>
