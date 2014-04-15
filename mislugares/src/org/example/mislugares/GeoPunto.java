@@ -17,6 +17,14 @@ public class GeoPunto {
 	public double getLatitud() {
 		return latitud;
 	}
+	
+	public void setLongitud(double longitud) {
+		this.longitud = longitud;
+	}
+
+	public void setLatitud(double latitud) {
+		this.latitud = latitud;
+	}
 
 	// declaracion de metodos
 	/**

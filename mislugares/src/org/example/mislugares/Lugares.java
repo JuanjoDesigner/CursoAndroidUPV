@@ -4,7 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Lugares {
+	public static final String TAG = null;
 	protected static ArrayList<Lugar> vectorLugares = ejemploLugares();
+	protected static GeoPunto posicionActual = new GeoPunto(0,0);
 
 	public Lugares() {
 		vectorLugares = ejemploLugares();
