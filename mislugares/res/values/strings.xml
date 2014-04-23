@@ -19,6 +19,7 @@
     <string name="hntUrl">página web</string>
     <string name="lblComentario">Comentario</string>
     <string name="hntComentario">introduce tus notas</string>
+    <string name="menu_mapa">Mapa</string>
 
 	<!-- Strings del layout vista_lugar -->
     <string name="txtTituloVL">Escuela Politécnica Superior de Gandía</string>
